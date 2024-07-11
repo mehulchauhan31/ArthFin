@@ -1,0 +1,260 @@
+<header id="header" class="header header-layout-type-header-2rows">
+  <!-- <div class="header-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-auto header-top-left align-self-center text-center text-xl-start">
+          <ul class="element contact-info">
+            <li class="contact-phone"><i class="fa fa-phone font-icon sm-display-block"></i>
+              Tel: +91 9839022092</li>
+            <li class="contact-email"><i class="fa fa-envelope font-icon sm-display-block"></i>
+              alpana&#64;arthfin.com </li>
+            <li class="contact-address"><i class="fa fa-map font-icon sm-display-block"></i>
+              D-1 - Vivekanand Puri, Bishop Rocky Street, Lucknow - 226007
+            </li>
+          </ul>
+        </div>
+        <div class="col-xl-auto ms-xl-auto header-top-right align-self-center text-center text-xl-end">
+          <div class="element pt-0 pb-0">
+            <ul class="styled-icons icon-dark icon-theme-colored1 icon-circled clearfix">
+              <li><a class="social-link" href="#"><i class="fab fa-facebook"></i></a></li>
+              <li><a class="social-link" href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a class="social-link" href="#"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-27">
+    <a href="" class="flex items-center space-x-3 rtl:space-x-reverse">
+      <img src="../assets/arthfin-logo.png" style="height: 100px;" alt="ArthFin Logo">
+      <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
+    </a>
+    <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+
+      <button data-collapse-toggle="navbar-sticky" type="button"
+        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+        aria-controls="navbar-sticky" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M1 1h15M1 7h15M1 13h15" />
+        </svg>
+      </button>
+    </div>
+    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+      <ul
+        class="flex flex-col p-4 md:p-0 mt-4 font-medium bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 " style="display: flex; justify-content: center; align-items: center;">
+        <li>
+          <button routerLink="/home" id="mega-menu-full-dropdown-button" data-collapse-toggle="mega-menu-full-dropdown"
+            class="box flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded md:w-auto hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">Home</button>
+        </li>
+        <li>
+          <button routerLink="/about-us" id="mega-menu-full-dropdown-button"
+            data-collapse-toggle="mega-menu-full-dropdown"
+            class="box flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded md:w-auto hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">
+            About-Us</button>
+        </li>
+        <li>
+          <button routerLink="/knowledge-hub" 
+            class="box flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded md:w-auto hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+            aria-current="page">Why Us</button>
+        </li>
+        <li>
+          <button routerLink="/contact-us"
+            class="box flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded md:w-auto hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+            aria-current="page">Contact-Us</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<router-outlet></router-outlet>
+
+<!-- <section>
+    <div class="container-fluid p-0">
+      <div class="row">
+        <div class="d-none d-sm-block mb-5 pb-4"><iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1058.0887385639708!2d80.94524442434943!3d26.872627208200473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfd777e3d25b1%3A0xb299a78911318a7d!2sBishop%20Rocky%20St%2C%20Vivekanandapuri%20Hydel%20Colony%2C%20Nirala%20Nagar%2C%20Lucknow%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1718629303420!5m2!1sen!2sin"
+          width="100%" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          style="border: 0;"></iframe></div>
+      </div>
+    </div>
+  </section> -->
+
+<!-- <section class="border-top">
+  <div class="container pt-40 pb-40">
+    <div class="section-content">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="tm-sc tm-sc-clients tm-sc-clients-carousel clients-animation-grayscale">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<footer id="footer" class="footer bg-no-repeat layer-overlay overlay-dark-1">
+  <div class="footer-widget-area">
+    <!-- <div class="container pt-40">
+      <div class="row" data-tm-border-bottom="1px solid rgba(255,255,255, 0.3)"
+        style="border-bottom: 1px solid rgba(255, 255, 255, 0.3);">
+        <div class="col-sm-12 col-md-6">
+          <div
+            class="split-nav-menu clearfix widget widget-contact-info clearfix mb-20 pr-30 text-md-start text-center">
+            <img style="width: 200px; height: 100px;" class="mb-20" alt="" src="../assets/arthfin-logo.jpeg">
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <ul class="styled-icons icon-dark icon-theme-colored1 icon-md vertical-icons mb-sm-40">
+            <li><a class="social-link" href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a class="social-link" href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a class="social-link" href="#"><i class="fab fa-pinterest"></i></a></li>
+            <li><a class="social-link" href="#"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div> -->
+    <!-- <div class="container pt-100 pb-70" style="padding-bottom: 0% !important;">
+      <div class="row">
+        <div class="col-xl-3 col-lg-6 col-md-6">
+          <div class="widget">
+            <h4 class="widget-title text-uppercase">About</h4>
+            <p>At ArthFin, our mission is clear: to help you achieve your dream financial future with utmost integrity.
+              We empower you to make informed economic decisions by placing your needs at the forefront of every
+              discussion. You deserve reliable, transparent information to confidently grow your wealth. </p>
+
+          </div>
+        </div> -->
+        <!-- <div class="col-md-1"></div>
+        <div class="col-xl-3 col-lg-6 col-md-6">
+          <div class="split-nav-menu clearfix widget widget_nav_menu">
+            <h4 class="widget-title text-uppercase">Links</h4>
+            <div class="menu-links-container">
+              <ul id="menu-links" class="menu"> -->
+                <!-- <li><a href="">Our Services</a></li> -->
+                <!-- <li><a href="/about-us">About Us</a></li> -->
+                <!-- <li><a href="">Get a Quote</a></li> -->
+                <!-- <li><a href="/contact-us">Contact Us</a></li> -->
+                <!-- <li><a href="">Industries</a></li> -->
+                <!-- <li><a href="/privacy-policy">Privacy Policy</a></li> -->
+                <!-- <li><a href="">Help</a></li> -->
+                <!-- <li><a href="/terms-condition">Terms of Use</a></li> -->
+                <!-- <li><a href="/terms-condition">Terms of Use</a></li> -->
+              <!-- </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-xl-3 col-lg-6 col-md-6">
+          <div class="widget">
+            <h4 class="widget-title text-uppercase">Contact</h4>
+            <div class="tm-sc-unordered-list list-style">
+              <ul>
+                <li><i class="pe-7s-map-marker text-theme-colored1 font-size-20 mr-1"></i>
+                  D-1 - Vivekanand Puri, Bishop Rocky Street, Lucknow - 226007
+                </li>
+                <li><i class="pe-7s-alarm text-theme-colored1 font-size-20 mr-1"></i> Mon to Sat 9:00am to 6:00pm</li>
+                <li><i class="pe-7s-mail-open text-theme-colored1 font-size-20 mr-1"></i>
+                  alpana&#64;arthfin.com</li>
+                <li><i class="pe-7s-call text-theme-colored1 font-size-20 mr-1"></i>+91 9839022092</li>
+              </ul>
+            </div>
+          </div>
+        </div> -->
+        <!-- <div class="col-xl-3 col-lg-6 col-md-6">
+          <div class="widget widget-newsletter">
+            <h4 class="widget-title text-uppercase">Recent News</h4>
+            <div class="latest-posts">
+              <article class="post clearfix pb-0 mb-20">
+                <a class="post-thumb" href="news-details.html"><img class="rounded" src="assets/latest-news1.jpg"
+                    alt="images"></a>
+                <div class="post-right">
+                  <span class="post-date">
+                    <time class="entry-date text-theme-colored1" datetime="2021-05-15T06:10:26+00:00">April 15,
+                      2024</time>
+                  </span>
+                  <h6 class="post-title mt-2"> <a href="news-details.html" class="text-white">Global Company Business
+                      Meeting </a> </h6>
+                </div>
+              </article>
+              <article class="post clearfix pb-0 mb-20">
+                <a class="post-thumb" href="news-details.html"><img class="rounded" src="assets/latest-news2.jpg"
+                    alt="images"></a>
+                <div class="post-right">
+                  <span class="post-date">
+                    <time class="entry-date text-theme-colored1" datetime="2021-05-15T06:10:26+00:00">April 15,
+                      2024</time>
+                  </span>
+                  <h6 class="post-title mt-2"> <a href="news-details.html" class="text-white">Industrial &amp; Business
+                      Construction </a> </h6>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div> -->
+      <!-- </div>
+    </div> -->
+  </div>
+  <div class="footer-bottom bg-theme-colored1">
+    <!-- <div class="container-fluid" style="float: right; width: 10% !important; margin-top: 50px !important;">
+      
+    </div> -->
+    <div class="container">
+      <div class="col-sm-12 col-md-6" style="width: 10%; float: inline-end; margin-top: 39px;">
+        <ul class="styled-icons icon-dark icon-theme-colored1 icon-md vertical-icons mb-sm-40">
+          <li><a class="social-link" ><i class="fab fa-twitter"></i></a></li>
+          <li><a class="social-link" ><i class="fab fa-facebook"></i></a></li>
+          <li><a class="social-link" ><i class="fab fa-pinterest"></i></a></li>
+          <li><a class="social-link" ><i class="fab fa-instagram"></i></a></li>
+        </ul>
+      </div>
+      <div class="row pt-30 pb-30" style="padding-bottom: 0% !important; margin-top: 75px;">
+        <div class="col">
+          <div class="footer-paragraph text-center mb-sm-15 text-white">
+            <p style="text-align:justify">
+              <strong>Risk Factors –</strong>
+              Investments in Mutual Funds are subject to Market Risks. Read all scheme related documents carefully
+              before investing. Mutual Fund Schemes do not assure or guarantee any returns. Past performances of any
+              Mutual Fund Scheme may or may not be sustained in future. There is no guarantee that the investment
+              objective of any suggested scheme shall be achieved. All existing and prospective investors are advised to
+              check and evaluate the Exit loads and other cost structure (TER) applicable at the time of making the
+              investment before finalizing on any investment decision for Mutual Funds schemes. We deal in Regular Plans
+              only for Mutual Fund Schemes and earn a Trailing Commission on client investments. Disclosure For
+              Commission earnings is made to clients at the time of investments. Option of Direct Plan for every Mutual
+              Fund Scheme is available to investors offering advantage of lower expense ratio. We are not entitled to
+              earn any commission on Direct plans. Hence we do not deal in Direct Plans.
+            </p>
+            
+            <p style="text-align:center;font-weight:600;">
+              AMFI Registered Mutual Fund Distributor | ARN-102602 | Date of initial Registration: 09-JUNE-2015 |
+              Current validity: 30-SEPTEMBER-2026
+            </p>
+            <p style="text-align:center;font-weight:600;">
+              Copyright © 2016 Arthfin.
+              <a href="/privacy-policy" style="color:#000000;">Privacy Policy</a>
+              |
+              <a href="/disclaimer" style="color:#000000;">Disclaimer</a>
+              |
+              <a href="/disclosure" style="color:#000000;">Disclosure</a>
+              |
+              <a href="/complaints" style="color:#000000;">Complaints/Grievance</a>
+              |
+              <a href="https://www.sebi.gov.in/filings/mutual-funds.html" target="_blank" rel="noopener"
+                style="color:#000000;">SID/SAI/KIM</a>
+              |
+              <a href="https://resources.investwellonline.com/due-diligence/AMFI_Code-of-Conduct.pdf" target="_blank"
+                rel="noopener" style="color:#000000;">Code of Conduct</a>
+              |
+              <a href="https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0"
+                target="_blank" rel="noopener" style="color:#000000;">SEBI Circulars</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
